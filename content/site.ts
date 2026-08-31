@@ -45,7 +45,7 @@ export const bio = {
   paragraphs: [
     "Ma passion pour la prothésie ongulaire est née d'une véritable fascination pour ce métier. À l'époque, je dépensais beaucoup d'argent pour faire mes ongles et j'adorais observer ma prothésiste ongulaire travailler. Petit à petit, je suis devenue curieuse et j'ai commencé à m'intéresser aux différentes techniques et à la précision de son travail.",
     "Pendant la période du Covid, ayant davantage de temps libre, j'ai décidé de me lancer et de suivre une formation en prothésie ongulaire. Ce qui était au départ une simple curiosité est rapidement devenu une véritable passion.",
-    "Aujourd'hui, la prothésie ongulaire est devenue mon métier, mais surtout une activité que j'aime profondément. Chaque cliente, chaque création et chaque nouveau défi me permettent de continuer à apprendre et à exprimer ma créativité. ✨",
+    "Aujourd'hui, la prothésie ongulaire est devenue mon métier, mais surtout une activité que j'aime profondément. Chaque cliente, chaque création et chaque nouveau défi me permettent de continuer à apprendre et à exprimer ma créativité.",
   ],
   signature: "Riiane",
 };
@@ -137,13 +137,13 @@ export const beforeAfter = {
 export const testimonials = [
   {
     quote:
-      "Je suis absolument ravie de mes ongles ! Riiane est très professionnelle, minutieuse et vraiment à l'écoute. Elle prend le temps de comprendre ce que je veux et le résultat est toujours magnifique. Mes ongles tiennent super bien et je reçois énormément de compliments. Je recommande les yeux fermés ! ❤️",
-    author: "👩🏾 Cliente Sophie Beauty Studio",
+      "Je suis absolument ravie de mes ongles ! Riiane est très professionnelle, minutieuse et vraiment à l'écoute. Elle prend le temps de comprendre ce que je veux et le résultat est toujours magnifique. Mes ongles tiennent super bien et je reçois énormément de compliments. Je recommande les yeux fermés !",
+    author: "Cliente Sophie Beauty Studio",
   },
   {
     quote:
-      "Une super expérience du début à la fin ! Riiane est douce, perfectionniste et passionnée par son travail. J'ai adoré le résultat, mes ongles sont exactement comme je les imaginais. On se sent vraiment à l'aise et entre de bonnes mains. Je reviendrai sans hésiter ! 💕",
-    author: "✨ Cliente Sophie Beauty Studio",
+      "Une super expérience du début à la fin ! Riiane est douce, perfectionniste et passionnée par son travail. J'ai adoré le résultat, mes ongles sont exactement comme je les imaginais. On se sent vraiment à l'aise et entre de bonnes mains. Je reviendrai sans hésiter !",
+    author: "Cliente Sophie Beauty Studio",
   },
 ];
 
