@@ -10,7 +10,7 @@ export function Contact() {
           <Image src={contact.photo.src} alt={contact.photo.alt} fill sizes="(max-width: 820px) 90vw, 40vw" style={{ objectFit: "cover" }} />
         </div>
         <div>
-          <span className="eyebrow">{contact.eyebrow}</span>
+          <span className="eyebrow eyebrow-invert">{contact.eyebrow}</span>
           <h2 className="display">{contact.title}</h2>
           <p className="contact-sub">{contact.description}</p>
           <div className="contact-links">
@@ -19,7 +19,7 @@ export function Contact() {
               href={socialLinks.instagram.url}
               target="_blank"
               rel="noopener"
-              aria-label={socialLinks.instagram.label}
+              aria-label={`${socialLinks.instagram.label} (nouvel onglet)`}
               title={socialLinks.instagram.label}
             >
               <InstagramIcon />
@@ -37,7 +37,7 @@ export function Contact() {
               href={socialLinks.whatsapp.url}
               target="_blank"
               rel="noopener"
-              aria-label={socialLinks.whatsapp.label}
+              aria-label={`${socialLinks.whatsapp.label} (nouvel onglet)`}
               title={socialLinks.whatsapp.label}
             >
               <WhatsappIcon />

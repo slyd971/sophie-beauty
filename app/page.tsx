@@ -14,7 +14,7 @@ export default function Home() {
     <>
       <Hero />
       <SocialBand />
-      <main>
+      <main id="main-content">
         <Stats />
         <Bio />
         <Gallery />

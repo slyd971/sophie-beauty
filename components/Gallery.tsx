@@ -23,7 +23,7 @@ export function Gallery() {
         </div>
         <div className="gallery-more">
           <a href={socialLinks.instagram.url} target="_blank" rel="noopener">
-            Voir plus de réalisations sur Instagram →
+            Voir plus de réalisations sur Instagram →<span className="sr-only"> (nouvel onglet)</span>
           </a>
         </div>
       </div>

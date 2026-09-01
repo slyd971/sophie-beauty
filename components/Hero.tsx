@@ -1,6 +1,29 @@
+"use client";
+
+import { useEffect, useRef } from "react";
 import { brand, hero } from "@/content/site";
 
 export function Hero() {
+  const videoRef = useRef<HTMLVideoElement>(null);
+
+  useEffect(() => {
+    const video = videoRef.current;
+    if (!video) return;
+
+    const motionQuery = window.matchMedia("(prefers-reduced-motion: reduce)");
+    const syncPlayback = () => {
+      if (motionQuery.matches) {
+        video.pause();
+      } else {
+        video.play().catch(() => {});
+      }
+    };
+
+    syncPlayback();
+    motionQuery.addEventListener("change", syncPlayback);
+    return () => motionQuery.removeEventListener("change", syncPlayback);
+  }, []);
+
   return (
     <header className="hero">
       <div className="hero-head">
@@ -16,6 +39,7 @@ export function Hero() {
         </div>
       </div>
       <video
+        ref={videoRef}
         className="hero-video"
         autoPlay
         muted
@@ -23,6 +47,7 @@ export function Hero() {
         playsInline
         preload="auto"
         poster={hero.poster}
+        aria-hidden="true"
       >
         <source src={hero.video} type="video/mp4" />
       </video>

@@ -52,6 +52,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="fr" className={`${bodoniModa.variable} ${manrope.variable}`}>
       <body>
+        <a href="#main-content" className="skip-link">
+          Passer au contenu
+        </a>
         <StructuredData />
         {children}
       </body>

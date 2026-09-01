@@ -8,7 +8,7 @@ export function Testimonials() {
           <span className="eyebrow">Témoignages</span>
           <h2 className="display">Ce qu&apos;en disent les clientes</h2>
         </div>
-        <div className="testi-grid">
+        <div className="testi-grid" tabIndex={0} role="region" aria-label="Témoignages clientes, défilement horizontal sur mobile">
           {testimonials.map((testimonial) => (
             <div className="testi-card" key={testimonial.author + testimonial.quote.slice(0, 10)}>
               <span className="quote-mark">&ldquo;</span>

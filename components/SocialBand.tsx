@@ -9,7 +9,7 @@ export function SocialBand() {
           href={socialLinks.instagram.url}
           target="_blank"
           rel="noopener"
-          aria-label={socialLinks.instagram.label}
+          aria-label={`${socialLinks.instagram.label} (nouvel onglet)`}
           title={socialLinks.instagram.label}
         >
           <InstagramIcon />
@@ -18,7 +18,7 @@ export function SocialBand() {
           href={socialLinks.whatsapp.url}
           target="_blank"
           rel="noopener"
-          aria-label={socialLinks.whatsapp.label}
+          aria-label={`${socialLinks.whatsapp.label} (nouvel onglet)`}
           title={socialLinks.whatsapp.label}
         >
           <WhatsappIcon />
