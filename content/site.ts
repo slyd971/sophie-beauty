@@ -3,13 +3,13 @@
 // sans avoir à toucher aux composants React.
 
 export const brand = {
-  name: "Sophie Beauty Studio",
+  name: "Sophie Beauty",
   tagline: "Gel & pose américaine, nude et naturel",
 };
 
 export const seo = {
   description:
-    "Dossier de presse de Sophie Beauty Studio, prothésiste ongulaire spécialisée en gel nude et pose américaine.",
+    "Dossier de presse de Sophie Beauty, prothésiste ongulaire spécialisée en gel nude et pose américaine.",
 };
 
 export const hero = {
@@ -47,7 +47,7 @@ export const stats = [
 
 export const bio = {
   eyebrow: "Mon parcours",
-  photo: { src: "/assets/bio.jpg", alt: "Riiane, fondatrice de Sophie Beauty Studio" },
+  photo: { src: "/assets/bio.jpg", alt: "Riiane, fondatrice de Sophie Beauty" },
   paragraphs: [
     "Ma passion pour la prothésie ongulaire est née d'une véritable fascination pour ce métier. À l'époque, je dépensais beaucoup d'argent pour faire mes ongles et j'adorais observer ma prothésiste ongulaire travailler. Petit à petit, je suis devenue curieuse et j'ai commencé à m'intéresser aux différentes techniques et à la précision de son travail.",
     "Pendant la période du Covid, ayant davantage de temps libre, j'ai décidé de me lancer et de suivre une formation en prothésie ongulaire. Ce qui était au départ une simple curiosité est rapidement devenu une véritable passion.",
@@ -137,19 +137,19 @@ export const method = {
 export const beforeAfter = {
   before: { src: "/assets/avant.jpg", alt: "Ongles avant la pose" },
   after: { src: "/assets/apres.jpg", alt: "Ongles après la pose gel nude" },
-  caption: "Pose gel nude & naturel — précision et mise en forme signées Sophie Beauty Studio.",
+  caption: "Pose gel nude & naturel — précision et mise en forme signées Sophie Beauty.",
 };
 
 export const testimonials = [
   {
     quote:
       "Je suis absolument ravie de mes ongles ! Riiane est très professionnelle, minutieuse et vraiment à l'écoute. Elle prend le temps de comprendre ce que je veux et le résultat est toujours magnifique. Mes ongles tiennent super bien et je reçois énormément de compliments. Je recommande les yeux fermés !",
-    author: "Cliente Sophie Beauty Studio",
+    author: "Cliente Sophie Beauty",
   },
   {
     quote:
       "Une super expérience du début à la fin ! Riiane est douce, perfectionniste et passionnée par son travail. J'ai adoré le résultat, mes ongles sont exactement comme je les imaginais. On se sent vraiment à l'aise et entre de bonnes mains. Je reviendrai sans hésiter !",
-    author: "Cliente Sophie Beauty Studio",
+    author: "Cliente Sophie Beauty",
   },
 ];
 
@@ -157,9 +157,9 @@ export const contact = {
   eyebrow: "Collaborations & contact",
   title: "Parlons de votre prochain projet",
   description:
-    "Presse, collaborations, partenariats de marque ou rendez-vous : Sophie Beauty Studio est ouvert aux échanges. Retrouvez-nous sur les réseaux ou écrivez directement.",
+    "Presse, collaborations, partenariats de marque ou rendez-vous : Sophie Beauty est ouvert aux échanges. Retrouvez-nous sur les réseaux ou écrivez directement.",
   photo: {
     src: "/assets/contact.jpg",
-    alt: "Riiane, prothésiste ongulaire chez Sophie Beauty Studio",
+    alt: "Riiane, prothésiste ongulaire chez Sophie Beauty",
   },
 };

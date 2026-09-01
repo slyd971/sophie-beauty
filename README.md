@@ -1,6 +1,6 @@
-# Sophie Beauty Studio — Presskit
+# Sophie Beauty — Presskit
 
-Presskit Next.js de Sophie Beauty Studio (prothésie ongulaire).
+Presskit Next.js de Sophie Beauty (prothésie ongulaire).
 
 ## Lancer en local
 
