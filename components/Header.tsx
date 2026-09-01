@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { useEffect, useState } from "react";
 import { brand, navLinks } from "@/content/site";
 
@@ -18,8 +19,14 @@ export function Header() {
   return (
     <header className="site-header">
       <div className="site-header-bar">
-        <a className="site-header-brand" href="#top">
-          {brand.name}
+        <a className="site-header-brand" href="#top" aria-label={brand.name}>
+          <Image
+            src={brand.logo.src}
+            alt={brand.name}
+            width={brand.logo.width}
+            height={brand.logo.height}
+            priority
+          />
         </a>
 
         <nav className="site-header-nav" aria-label="Navigation principale">

@@ -5,6 +5,7 @@
 export const brand = {
   name: "Sophie Beauty",
   tagline: "Gel & pose américaine, nude et naturel",
+  logo: { src: "/assets/logo.png", width: 823, height: 353 },
 };
 
 export const seo = {
