@@ -304,9 +304,18 @@ section { padding: clamp(3.5rem, 8vw, 7rem) clamp(1.5rem, 6vw, 5rem); }
 }
 
 /* ---------- Section headers ---------- */
+/* Single title scale shared by every section heading, wherever it lives */
+.section-head h2,
+.contact h2,
+.bio-title {
+  font-size: clamp(2.6rem, 5.5vw, 3.8rem);
+  font-weight: 650;
+  margin: 0;
+  color: var(--cacao);
+}
 .section-head { display: flex; flex-direction: column; gap: 0.6rem; margin-bottom: clamp(2rem, 5vw, 3rem); }
-.section-head h2 { font-size: clamp(2.6rem, 5.5vw, 3.8rem); font-weight: 650; margin: 0; color: var(--cacao); }
 .section-head .num { font-family: var(--font-display), serif; font-style: italic; color: var(--rose-deep); }
+.bio-title { margin-bottom: 1.2rem; }
 
 /* ---------- Bio ---------- */
 .bio { background: var(--card); }
@@ -352,7 +361,7 @@ section { padding: clamp(3.5rem, 8vw, 7rem) clamp(1.5rem, 6vw, 5rem); }
 .steps { display: grid; gap: 0; border-top: 1px solid var(--line); }
 .step { display: grid; grid-template-columns: 4.5rem 1fr; gap: 1.5rem; padding: 1.8rem 0; border-bottom: 1px solid var(--line); }
 .step .idx { font-family: var(--font-display), serif; font-style: italic; font-size: 2rem; color: var(--rose-deep); line-height: 1; }
-.step h3 { margin: 0 0 0.5rem; font-size: 1.15rem; font-weight: 700; }
+.step h3 { font-family: var(--font-display), serif; font-style: italic; margin: 0 0 0.5rem; font-size: 1.4rem; font-weight: 600; color: var(--cacao); }
 .step ul { margin: 0; padding-left: 1.1rem; color: var(--cacao); line-height: 1.6; font-size: 0.97rem; }
 .step ul li { margin-bottom: 0.2rem; }
 
@@ -384,7 +393,7 @@ section { padding: clamp(3.5rem, 8vw, 7rem) clamp(1.5rem, 6vw, 5rem); }
 .contact { background: linear-gradient(180deg, var(--cacao-deep), #201310 90%); color: #f2e2d6; }
 .contact-grid { display: grid; grid-template-columns: 0.8fr 1.2fr; gap: clamp(2rem, 6vw, 4.5rem); align-items: center; }
 .contact .arch-frame { aspect-ratio: 4 / 5; border: 1px solid rgba(242, 226, 214, 0.16); }
-.contact h2 { font-size: clamp(2.2rem, 4.5vw, 3rem); font-weight: 650; margin: 0 0 1rem; color: #f9efe7; }
+.contact h2 { margin: 0 0 1rem; color: #f9efe7; }
 .contact-sub { color: #d9c4b7; line-height: 1.65; font-size: 1.02rem; max-width: 32rem; margin-bottom: 2rem; }
 .contact-links { display: flex; flex-wrap: wrap; gap: 0.9rem; }
 .clink {

@@ -47,6 +47,7 @@ export const stats = [
 
 export const bio = {
   eyebrow: "Mon parcours",
+  title: "Une passion devenue métier",
   photo: { src: "/assets/bio.jpg", alt: "Riiane, fondatrice de Sophie Beauty" },
   paragraphs: [
     "Ma passion pour la prothésie ongulaire est née d'une véritable fascination pour ce métier. À l'époque, je dépensais beaucoup d'argent pour faire mes ongles et j'adorais observer ma prothésiste ongulaire travailler. Petit à petit, je suis devenue curieuse et j'ai commencé à m'intéresser aux différentes techniques et à la précision de son travail.",
