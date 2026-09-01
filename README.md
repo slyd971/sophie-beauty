@@ -36,6 +36,11 @@ de toucher aux composants React dans `components/`.
   avec le vrai domaine une fois le site déployé (utilisé pour l'URL canonique, le
   sitemap, `robots.txt` et l'image de partage Open Graph). Sans cette variable,
   tout pointe vers `http://localhost:3000`.
+  **Sur Vercel, `.env.local` n'est pas déployé** : il faut ajouter
+  `NEXT_PUBLIC_SITE_URL` dans Project Settings → Environment Variables (valeur :
+  `https://sophie-beauty.presskit.fr`), puis redéployer pour que le build la
+  prenne en compte. Sans ça, les aperçus de lien (WhatsApp, iMessage, réseaux
+  sociaux…) restent cassés car l'image Open Graph pointe vers `localhost`.
 - Métadonnées (titre, description, Open Graph, Twitter Card), favicon et image de
   partage sont générés automatiquement (`app/layout.tsx`, `app/icon.tsx`,
   `app/opengraph-image.tsx`) à partir de `content/site.ts` — pas besoin d'assets
