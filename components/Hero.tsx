@@ -15,7 +15,15 @@ export function Hero() {
           ))}
         </div>
       </div>
-      <video className="hero-video" autoPlay muted loop playsInline preload="auto">
+      <video
+        className="hero-video"
+        autoPlay
+        muted
+        loop
+        playsInline
+        preload="auto"
+        poster={hero.poster}
+      >
         <source src={hero.video} type="video/mp4" />
       </video>
       <div className="hero-scrim" />

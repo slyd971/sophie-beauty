@@ -14,13 +14,15 @@ export default function Home() {
     <>
       <Hero />
       <SocialBand />
-      <Stats />
-      <Bio />
-      <Gallery />
-      <Method />
-      <BeforeAfter />
-      <Testimonials />
-      <Contact />
+      <main>
+        <Stats />
+        <Bio />
+        <Gallery />
+        <Method />
+        <BeforeAfter />
+        <Testimonials />
+        <Contact />
+      </main>
       <Footer />
     </>
   );

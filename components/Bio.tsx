@@ -9,9 +9,9 @@ export function Bio() {
           <Image src={bio.photo.src} alt={bio.photo.alt} fill sizes="(max-width: 820px) 90vw, 40vw" style={{ objectFit: "cover" }} />
         </div>
         <div className="bio-text">
-          <p className="eyebrow" style={{ marginBottom: "0.8rem" }}>
+          <h2 className="eyebrow" style={{ margin: "0 0 0.8rem" }}>
             {bio.eyebrow}
-          </p>
+          </h2>
           {bio.paragraphs.map((paragraph, index) => (
             <p key={index}>{paragraph}</p>
           ))}

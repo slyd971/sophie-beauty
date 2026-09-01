@@ -1,7 +1,9 @@
 import type { Metadata } from "next";
 import { Bodoni_Moda, Manrope } from "next/font/google";
 import "./globals.css";
-import { brand } from "@/content/site";
+import { brand, seo } from "@/content/site";
+import { siteUrl } from "@/lib/site-url";
+import { StructuredData } from "@/components/StructuredData";
 
 const bodoniModa = Bodoni_Moda({
   subsets: ["latin"],
@@ -18,15 +20,41 @@ const manrope = Manrope({
 });
 
 export const metadata: Metadata = {
-  title: brand.name,
-  description:
-    "Dossier de presse de Sophie Beauty Studio, prothésiste ongulaire spécialisée en gel nude et pose américaine.",
+  metadataBase: new URL(siteUrl),
+  title: {
+    default: brand.name,
+    template: `%s · ${brand.name}`,
+  },
+  description: seo.description,
+  alternates: {
+    canonical: "/",
+  },
+  robots: {
+    index: true,
+    follow: true,
+  },
+  openGraph: {
+    type: "website",
+    locale: "fr_FR",
+    url: siteUrl,
+    siteName: brand.name,
+    title: brand.name,
+    description: seo.description,
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: brand.name,
+    description: seo.description,
+  },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="fr" className={`${bodoniModa.variable} ${manrope.variable}`}>
-      <body>{children}</body>
+      <body>
+        <StructuredData />
+        {children}
+      </body>
     </html>
   );
 }

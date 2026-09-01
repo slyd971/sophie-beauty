@@ -30,6 +30,20 @@ de toucher aux composants React dans `components/`.
 > minuscules — sur un serveur Linux (Vercel, CI…) `public` et `Public` seraient deux
 > dossiers différents, ce qui aurait cassé le site en production.
 
+## SEO
+
+- Copier `.env.local.example` en `.env.local` et renseigner `NEXT_PUBLIC_SITE_URL`
+  avec le vrai domaine une fois le site déployé (utilisé pour l'URL canonique, le
+  sitemap, `robots.txt` et l'image de partage Open Graph). Sans cette variable,
+  tout pointe vers `http://localhost:3000`.
+- Métadonnées (titre, description, Open Graph, Twitter Card), favicon et image de
+  partage sont générés automatiquement (`app/layout.tsx`, `app/icon.tsx`,
+  `app/opengraph-image.tsx`) à partir de `content/site.ts` — pas besoin d'assets
+  externes à maintenir.
+- `app/sitemap.ts` et `app/robots.ts` génèrent `/sitemap.xml` et `/robots.txt`.
+- Données structurées (`schema.org/BeautySalon`) injectées via
+  `components/StructuredData.tsx`.
+
 ## Build production
 
 ```bash

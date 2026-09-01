@@ -7,8 +7,14 @@ export const brand = {
   tagline: "Gel & pose américaine, nude et naturel",
 };
 
+export const seo = {
+  description:
+    "Dossier de presse de Sophie Beauty Studio, prothésiste ongulaire spécialisée en gel nude et pose américaine.",
+};
+
 export const hero = {
   video: "/assets/hero.mp4",
+  poster: "/assets/hero-poster.jpg",
   description:
     "Le travail de Riiane : une prothésiste ongulaire passionnée, spécialisée dans les poses gel nude et les capsules américaines, au service d'ongles précis, naturels et durables.",
   ctas: [
