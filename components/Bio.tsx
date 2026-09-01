@@ -3,7 +3,7 @@ import { bio } from "@/content/site";
 
 export function Bio() {
   return (
-    <section className="bio">
+    <section className="bio" id="parcours">
       <div className="wrap bio-grid">
         <div className="arch-frame">
           <Image src={bio.photo.src} alt={bio.photo.alt} fill sizes="(max-width: 820px) 90vw, 40vw" style={{ objectFit: "cover" }} />

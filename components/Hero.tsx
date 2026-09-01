@@ -25,7 +25,7 @@ export function Hero() {
   }, []);
 
   return (
-    <header className="hero">
+    <section className="hero" id="top">
       <div className="hero-head">
         <h1 className="display">{brand.name}</h1>
         <p className="hero-tagline">{brand.tagline}</p>
@@ -56,6 +56,6 @@ export function Hero() {
         <span>Découvrir</span>
         <span className="line" />
       </div>
-    </header>
+    </section>
   );
 }

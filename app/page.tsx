@@ -1,3 +1,4 @@
+import { Header } from "@/components/Header";
 import { Hero } from "@/components/Hero";
 import { SocialBand } from "@/components/SocialBand";
 import { Stats } from "@/components/Stats";
@@ -12,6 +13,7 @@ import { Footer } from "@/components/Footer";
 export default function Home() {
   return (
     <>
+      <Header />
       <Hero />
       <SocialBand />
       <main id="main-content">

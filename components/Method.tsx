@@ -2,7 +2,7 @@ import { method } from "@/content/site";
 
 export function Method() {
   return (
-    <section className="method">
+    <section className="method" id="methode">
       <div className="wrap">
         <div className="section-head">
           <span className="eyebrow">{method.eyebrow}</span>

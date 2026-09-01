@@ -163,3 +163,18 @@ export const contact = {
     alt: "Riiane, prothésiste ongulaire chez Sophie Beauty",
   },
 };
+
+// Utilisé à la fois par le header (desktop + mobile) et le footer.
+export const navLinks = [
+  { label: "Parcours", href: "#parcours" },
+  { label: "Galerie", href: "#galerie" },
+  { label: "Méthode", href: "#methode" },
+  { label: "Contact", href: "#contact" },
+];
+
+export const footer = {
+  poweredBy: {
+    label: "presskit.fr",
+    url: "https://presskit.fr",
+  },
+};
