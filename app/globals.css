@@ -132,7 +132,7 @@ section { padding: clamp(3.5rem, 8vw, 7rem) clamp(1.5rem, 6vw, 5rem); }
   text-decoration: none;
 }
 .site-header-brand img {
-  height: 34px;
+  height: 48px;
   width: auto;
 }
 .site-header-nav {
