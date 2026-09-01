@@ -5,7 +5,12 @@
 export const brand = {
   name: "Sophie Beauty",
   tagline: "Gel & pose américaine, nude et naturel",
+  // Wordmark seul, recadré serré : utilisé dans le header (petite hauteur,
+  // le "S" décoratif y écraserait le mot BEAUTY).
   logo: { src: "/assets/logo.png", width: 823, height: 353 },
+  // Wordmark avec le "S" décoratif, plus de marge : utilisé sur l'image
+  // Open Graph où la place ne manque pas.
+  logoMark: { src: "/assets/logo-mark.png", width: 830, height: 584 },
 };
 
 export const seo = {

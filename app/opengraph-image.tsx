@@ -7,10 +7,10 @@ export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
 
 export default function OpengraphImage() {
-  const logoBuffer = readFileSync(join(process.cwd(), "public", "assets", "logo.png"));
+  const logoBuffer = readFileSync(join(process.cwd(), "public", "assets", "logo-mark.png"));
   const logoSrc = `data:image/png;base64,${logoBuffer.toString("base64")}`;
-  const logoWidth = 620;
-  const logoHeight = (logoWidth * brand.logo.height) / brand.logo.width;
+  const logoWidth = 460;
+  const logoHeight = (logoWidth * brand.logoMark.height) / brand.logoMark.width;
 
   return new ImageResponse(
     (
