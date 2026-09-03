@@ -18,6 +18,7 @@ export const seo = {
 export const hero = {
   video: "/assets/hero.mp4",
   poster: "/assets/hero-poster.jpg",
+  tagline: "Gel & pose américaine",
   description:
     "Le travail de Riiane : une prothésiste ongulaire passionnée, spécialisée dans les poses gel nude et les capsules américaines, au service d'ongles précis, naturels et durables.",
   ctas: [

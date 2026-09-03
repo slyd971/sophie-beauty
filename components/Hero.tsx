@@ -58,7 +58,7 @@ export function Hero() {
     <section className="hero" id="top">
       <div className="hero-head">
         <h1 className="display">{brand.name}</h1>
-        <p className="hero-tagline">{brand.tagline}</p>
+        <p className="hero-tagline">{hero.tagline}</p>
         <p className="hero-sub">{hero.description}</p>
         <div className="hero-ctas">
           {hero.ctas.map((cta) => (
