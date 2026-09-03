@@ -28,8 +28,8 @@ export const hero = {
 
 export const socialLinks = {
   instagram: {
-    url: "https://www.instagram.com/sophie_beauty_studio/",
-    label: "Instagram — @Sophie_Beauty_Studio",
+    url: "https://www.instagram.com/sophie_beauty_studio_/",
+    label: "Instagram — @sophie_beauty_studio_",
   },
   whatsapp: {
     url: "https://wa.me/33781049337",
