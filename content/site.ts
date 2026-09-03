@@ -62,12 +62,15 @@ export const bio = {
 
 export const gallery = [
   {
-    src: "/assets/gallery-1.jpg",
-    alt: "Pose gel nude avec nail art floral et liseré rouge",
+    src: "/assets/gallery-6.jpg",
+    alt: "Pose gel longue carrée, french léopard écaille et détail doré",
     big: true,
   },
+  {
+    src: "/assets/gallery-1.jpg",
+    alt: "Pose gel nude avec nail art floral et liseré rouge",
+  },
   { src: "/assets/gallery-2.jpg", alt: "Pose gel nude glossy, finition naturelle" },
-  { src: "/assets/gallery-3.jpg", alt: "Pose gel nude carrée avec détail blanc" },
   { src: "/assets/gallery-4.jpg", alt: "Pose gel french manucure classique" },
   { src: "/assets/gallery-5.jpg", alt: "Pose gel colorée avec nail art mixte" },
 ];
@@ -139,9 +142,31 @@ export const method = {
 };
 
 export const beforeAfter = {
-  before: { src: "/assets/avant.jpg", alt: "Ongles avant la pose" },
-  after: { src: "/assets/apres.jpg", alt: "Ongles après la pose gel nude" },
-  caption: "Pose gel nude & naturel — précision et mise en forme signées Sophie Beauty.",
+  eyebrow: "Avant / Après",
+  title: "Étape par étape",
+  steps: [
+    {
+      src: "/assets/etape-1.jpg",
+      tag: "Ongle naturel",
+      alt: "Ongles naturels courts avant la pose",
+    },
+    {
+      src: "/assets/etape-2.jpg",
+      tag: "Pose des capsules",
+      alt: "Pose des capsules longues sur ongles naturels",
+    },
+    {
+      src: "/assets/etape-3.jpg",
+      tag: "Mise en forme",
+      alt: "Mise en forme et limage des capsules avant le gel",
+    },
+    {
+      src: "/assets/etape-4.jpg",
+      tag: "Résultat final",
+      alt: "Résultat final : pose gel nude glossy, finition naturelle",
+    },
+  ],
+  caption: "Pose gel nude & naturel — de l'ongle naturel au résultat final, étape par étape.",
 };
 
 export const testimonials = [

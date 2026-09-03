@@ -26,14 +26,6 @@ export function Contact() {
             </a>
             <a
               className="clink ghost"
-              href={socialLinks.email.url}
-              aria-label={`Email — ${socialLinks.email.address}`}
-              title={socialLinks.email.address}
-            >
-              <EmailIcon />
-            </a>
-            <a
-              className="clink ghost"
               href={socialLinks.whatsapp.url}
               target="_blank"
               rel="noopener"
@@ -41,6 +33,14 @@ export function Contact() {
               title={socialLinks.whatsapp.label}
             >
               <WhatsappIcon />
+            </a>
+            <a
+              className="clink ghost"
+              href={socialLinks.email.url}
+              aria-label={`Email — ${socialLinks.email.address}`}
+              title={socialLinks.email.address}
+            >
+              <EmailIcon />
             </a>
           </div>
         </div>
