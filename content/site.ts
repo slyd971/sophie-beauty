@@ -70,7 +70,7 @@ export const gallery = [
     src: "/assets/gallery-1.jpg",
     alt: "Pose gel nude avec nail art floral et liseré rouge",
   },
-  { src: "/assets/gallery-2.jpg", alt: "Pose gel nude glossy, finition naturelle" },
+  { src: "/assets/gallery-2.jpg", alt: "Pose gel nude glossy sur ongles longs carrés, finition naturelle" },
   { src: "/assets/gallery-4.jpg", alt: "Pose gel french manucure classique" },
   { src: "/assets/gallery-5.jpg", alt: "Pose gel colorée avec nail art mixte" },
 ];
@@ -162,8 +162,13 @@ export const beforeAfter = {
     },
     {
       src: "/assets/etape-4.jpg",
+      tag: "Avant pose gel",
+      alt: "Capsules sculptées et mises en forme, avant la pose du gel",
+    },
+    {
+      src: "/assets/etape-5.jpg",
       tag: "Résultat final",
-      alt: "Résultat final : pose gel nude glossy, finition naturelle",
+      alt: "Résultat final : pose gel nude glossy sur les deux mains, finition naturelle",
     },
   ],
   caption: "Pose gel nude & naturel — de l'ongle naturel au résultat final, étape par étape.",
