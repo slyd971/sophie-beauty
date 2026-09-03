@@ -10,6 +10,11 @@ export function Hero() {
     const video = videoRef.current;
     if (!video) return;
 
+    // React ne reflète pas toujours l'attribut `muted` dans le DOM au premier
+    // rendu ; iOS/Safari bloque alors l'autoplay. On le force impérativement.
+    video.muted = true;
+    video.setAttribute("muted", "");
+
     const motionQuery = window.matchMedia("(prefers-reduced-motion: reduce)");
     const syncPlayback = () => {
       if (motionQuery.matches) {
